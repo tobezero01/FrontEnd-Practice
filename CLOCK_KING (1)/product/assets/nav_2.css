@@ -1,0 +1,734 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "montserrat",sans-serif;
+    background-color: white;
+    width: auto;
+}
+div.nav-fixed {
+    position: relative;
+}
+
+.icon-nav-fixed {
+    background: #f97e6c;
+    /* width: 60px; */
+    /* height: 205px; */
+    position: fixed;
+    left: 0;
+    top: 50%;
+    z-index: 9999;
+    border-radius: 0px 5px 5px 0px;
+    overflow: hidden;
+}
+
+div.nav-fixed .icon-nav-fixed > a {
+    text-align: center;
+    padding: 10px;
+    display: block;
+    transition: all 150ms ease-in-out;
+}
+
+div.nav-fixed .icon-nav-fixed > a .icon-mail {
+    width: 35px;
+    height: 30px;
+}
+
+div.nav-fixed .icon-nav-fixed > a .icon-facebook {
+    height: 35px;
+    width: 20px;
+}
+
+div.nav-fixed .icon-nav-fixed > a .icon-youtube {
+    height: 30px;
+    width: 35px;
+}
+div.nav-fixed .icon-nav-fixed > a .icon-instagram {
+    height: 30px;
+    width: 30px;
+}
+
+div.nav-fixed .icon-nav-fixed > a:hover {
+    cursor: pointer;
+    background-color: pink;
+}
+/* css header  */
+nav{
+    z-index: 100;
+    background-color: black;
+    height: 70px;
+}
+div.container-menu{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: relative;
+}
+div.clear{
+    clear: both;
+}
+ul.main-menu{
+    list-style: none;
+}
+.main-menu li{
+    margin: 0 auto;
+    padding: 0 10px;
+    color: white;
+}
+li:hover{
+    cursor: pointer;
+}
+.main-menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    padding: 26px 10px;
+}
+.main-menu li>a:hover{
+    color: #d3b9b9;
+}
+div.logo img{
+    height: 60px;
+}
+.main-menu{
+    margin: 0 auto;
+    display: flex;
+}
+ul.icon{
+    display: flex;
+}
+.icon li{
+    list-style: none;
+    color: white;
+    padding: 26px 10px;
+}
+.sub-menu{
+    list-style: none;
+    position: absolute;
+    background-color: rgba(5,5,6,0.6);
+    top: 70px;;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+.sub-menu li{
+    float: left;
+}
+.sub-menu li{
+    box-sizing: border-box;
+    width: 16.66%;
+}
+ul.main-menu>li:hover .sub-menu{
+    height: 150px;
+}
+ul.main-menu>li:hover i{
+    transition: all 1s ease-in-out;
+    transform: rotate(-180deg);
+}
+ul.main-menu li a{
+    position: relative;
+}
+ul.main-menu>li>a::before{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 0;
+    background-color: #795151;
+    left: 0px;
+    bottom: 0;
+    transition: width 0.5s ease-in-out;
+}
+ul.main-menu>li:hover>a::before{
+    width: 100%;
+}
+ul.icon>li{
+    position: relative;
+}
+ul.icon>li:hover div.icon-find{
+    display: block;
+}
+.icon-find{
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+.icon-find input{
+    position: relative;
+    float: left;
+    outline: 0;
+    padding: 4px;  
+}
+.icon-find button{
+    position: absolute;
+    top:6px;
+    right:3px;
+    border: 0;
+    background-color: transparent;
+}
+ul.icon-user{
+    position: absolute;
+    display: none;
+    background-color: white;
+    top:70px;
+    right: 0;
+    width: 150px;
+    
+
+}
+ul.icon-user li{
+    border-bottom: #6f6767 1px solid ;
+    text-align: center;
+    padding: 10px 0;
+}
+ul.icon>li:hover ul.icon-user{
+    display: block;
+
+}
+ul.icon-user li:last-child{
+    border-bottom: 0;
+}
+ul.icon-user li a{
+    display: block;
+    text-decoration: none;
+    color: #6f6767;
+}
+ul.icon-user li a:hover{
+    color: #b97979;
+}
+div.shop{
+    font-size: 0.6rem;
+    width:100%;
+    display: none;
+    position: absolute;
+    /* padding: 10px; */
+    background-color: white;
+    color: #6f6767;
+    text-align: center;
+    left:25px;
+}
+ul.icon>li:hover div.shop{
+    display: block;
+}
+div.icon-menu{
+    cursor: pointer;
+    display: none;
+    padding: 26px 10px;
+    color: #f97e6c;
+    text-align: center;
+}
+/* het css header  */
+/* @media screen and (max-width:768px) {
+    ul.main-menu{
+        flex-direction: column;
+        display: none;
+    }
+    div.icon-menu{
+        display: block;
+        
+    }
+    div.icon-menu:hover{
+        color: #b66e63;
+    }
+    ul.main-menu{
+        height: 500px;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    ul.main-menu li a{
+        color: black;
+    }
+    ul.main-menu li{
+        position: relative;
+    }
+    ul.sub-menu{
+        position: absolute;
+        flex-direction: column;
+        top:100%;
+        left: 0;
+    } 
+} */
+/* back ground header  */
+div.background{
+    width: 100%; 
+}
+div.background img{
+    width: 100%;
+}
+/* css cho thanh link den trang chu hoac cac trang dong ho khac */
+.main__header{
+    padding: 45px 0 20px 0;
+    width: 100%;
+}
+ul.main__header{
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+div.main__header-list{
+    padding: 45px 0 20px 0;
+    list-style: none;
+    color: #f97e6c;
+}
+li.main__header-list a::after {
+    content: "/";
+    padding: 0 10px;
+}
+li.main__header-list a:hover{
+    color: #f97e6c;
+}
+.main__header-list a{
+    text-decoration: none;
+    color: #5E5E5E;
+}
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* css menu select */
+div.menu__select{
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+    height: 60px;
+} 
+.menu__select{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+}
+.menu__select-sub{
+    z-index: 100;
+}
+div.menu__select ul.menu__select:first-child>li>a{
+    font-weight: 600;
+    font-size: 16px;
+}
+.menu__select-sub{
+    list-style: none;
+    display: none;
+}
+.menu__select-sub a,.menu__select a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.menu__select>li{
+    padding: 20px 0 20px 20px;
+}
+.menu__select>li:last-child{
+    padding-right: 20px;
+}
+.menu__select>li:hover ul.menu__select-sub{
+    display: block;
+}
+.menu__select-sub-first{
+    position: absolute;
+    background-color: #f7f7f7;
+    top:100%;
+    padding: 10px;
+    width: 150px;
+}
+
+.menu__select-sub-second{
+    position: absolute;
+    background-color: #f7f7f7;
+    top:100%;
+    right: 0;
+    padding: 10px;
+    width: 150px;
+    border: #1d1d1d solid 1px;
+    border-radius: 5px;
+}
+.menu__select-boder>a{
+    border: solid black 1px;
+}
+.menu__select-sub-meta {
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0 auto;
+    top:100%;
+    left: 0;
+    width: 100% !important;
+    background-color:#f7f7f7 ;
+
+}
+.menu__select-sub-meta li {
+    display: flex;
+    float: left;
+    width: 16.67%;
+    padding: 10px 10px;
+}
+.menu__select-sub-meta a{
+    display: block;
+}
+.menu__select-sub-color{
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+/* css 1 san pham */
+.main__item{
+    box-sizing: border-box;
+    width: 75%;
+    margin:  0 auto;
+}
+.main__one-item {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    width: 25%;
+    margin: 15px 0;
+    padding: 0 5px;
+    float: left;
+}
+.main__one-item-backgr img{
+    width: 100%;
+}
+.main__one-item a{
+    font-size: 20px;
+    display: block;
+    padding: 10px 0 0 0px ;
+    text-decoration: none;
+    color: #343333;
+    font-weight: 700;
+}
+.main__one-item a:hover, .main__one-item-icon i:hover{
+    color: #e71414;
+    border-color: #e71414;
+}
+.main__one-item-price{
+    display: block;
+    padding: 10px 0 5px 10px;
+}
+.old__price{
+    text-decoration-line: line-through;
+    cursor: text;
+}
+.new__price{
+    font-size: 20px;
+    font-weight: 900;
+    color: #e71414;
+    cursor: pointer;
+}
+div.main__one-item-icon{
+    /* display: none; */
+    top:10px;
+    right: 10px;
+    position: absolute;
+    width: 38px;
+}
+.main__one-item-backgr:hover{
+    background-color: #fff;
+    transform: scale(1.1);
+    transition:.5s transform ease-in;
+}
+a.main__one-item-icon{
+    width: 40px;
+    color: #686767;
+    display: block;
+    padding: 5px 0;
+}
+a.main__one-item-icon i{
+    font-size: 20px;
+    border: 1px solid #686767;
+    border-radius: 100%;
+}
+.num{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    text-align: center;
+    background-color: #e71414;
+    top: 10px;
+    left: 10px;
+
+}
+.sub__item{
+    margin: 0 auto;
+}
+/* css customer  */
+div.customer{
+    background-color: #fcf8f4;
+    margin-top: 50px;
+}
+h2{
+    padding-top: 50px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px;
+}
+h2::after{
+    position: absolute;
+    content:"" ;
+    width:90px ;
+    height: 2px;
+    background-color: #e71414;
+    top: 120%;
+    left: 47%;
+}
+#icon-next-first{
+    float:right
+}
+.sub__item-link{
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+}
+.sub__item-link-container{
+    width: 33.33%;
+    float: left;
+}
+.sub__item a{
+    text-align: center;
+    padding: 2px 0;
+    display: block;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+    color: #343333;
+}
+.sub__item a i{
+    color: #e71414;
+}
+h3{
+    padding-top:20px ;
+    text-align: center;
+    font-weight: normal;
+}
+.customer{
+    width: 100%;
+    box-sizing: border-box;
+}
+.customer-backgr{
+    padding: 10px 0;
+    width: 100%;
+}
+.customer-backgr-img{
+    width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+.customer-backgr-img img{
+    width: 100%;
+}
+/* css feedback */
+.container-feedback{
+    width: 100%;
+    height: 50px;
+    background-color: #f97e6c;
+}
+.feedback{
+    position: relative;
+    padding: 15px 0;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    font-size: 20px;
+    color: #f7f7f7;
+}
+.feedback-mail{
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+.feedback-mail input{
+    top:15%;
+    color: #3d3a3a;
+    width:300px;
+    height: 30px;
+}
+.feedback-mail #button{
+    width: 50px;
+    font-weight: 700;
+    height: 34px;
+    top:15%;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+/* css foter */
+.row {
+    float: left;
+    width: 100%;
+}
+.top {
+    padding-top: 40px;
+    margin-top: 50px;
+}
+footer {
+    min-height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+footer img {
+    width: 50%;
+}
+
+footer ul li {
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-bottom: 20px;
+    line-height: 20px;
+    position: relative;
+}
+
+div.footer {
+    float: left;
+    width: 400px;
+    min-height: 280px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-bottom: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.row {
+    float: left;
+    width: 100%;
+}
+.top {
+    padding-top: 40px;
+    margin-top: 50px;
+}
+footer {
+    min-height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+footer img {
+    width: 50%;
+}
+
+footer ul li {
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-bottom: 20px;
+    line-height: 20px;
+    position: relative;
+}
+
+div.footer {
+    float: left;
+    width: 400px;
+    min-height: 280px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-bottom: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.footer h3 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+div.footer1 {
+    width: 195px;
+    min-height: 280px;
+    padding-right: 20px;
+}
+
+div#footericon {
+    display:flex;
+}
+.row {
+    float: left;
+    width: 100%;
+}
+.top {
+    padding-top: 40px;
+    margin-top: 50px;
+}
+footer {
+    min-height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+footer img {
+    width: 50%;
+}
+
+footer ul li {
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-bottom: 20px;
+    line-height: 20px;
+    position: relative;
+}
+
+div.footer {
+    float: left;
+    width: 400px;
+    min-height: 280px;
+}
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-bottom: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.footer h3 {
+    text-align: left;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+div.footer1 {
+    width: 195px;
+    min-height: 280px;
+    padding-right: 20px;
+}
+
+div#footericon {
+    display:flex;
+}
+div#footericon >p {
+    margin-right: 20px;
+}
+
+div#footericon img{
+    width:32px;
+    background-color: red;
+}
+
+
+
+

@@ -1,0 +1,760 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+/* .row {
+    float: left;
+    width: 100%;
+} */
+
+.row::after {
+    clear: both;
+    display: table;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Montserrat";
+}
+header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.nav-fixed {
+    position: relative;
+}
+
+.icon-nav-fixed {
+    background: #f97e6c;
+    /* width: 60px; */
+    /* height: 205px; */
+    position: fixed;
+    left: 0;
+    top: 50%;
+    z-index: 9999;
+    border-radius: 0px 5px 5px 0px;
+    overflow: hidden;
+}
+
+div.nav-fixed .icon-nav-fixed > a {
+    text-align: center;
+    padding: 10px;
+    display: block;
+    transition: all 150ms ease-in-out;
+}
+
+div.nav-fixed .icon-nav-fixed > a .icon-mail {
+    width: 35px;
+    height: 30px;
+}
+
+div.nav-fixed .icon-nav-fixed > a .icon-facebook {
+    height: 35px;
+    width: 20px;
+}
+
+div.nav-fixed .icon-nav-fixed > a .icon-youtube {
+    height: 30px;
+    width: 35px;
+}
+div.nav-fixed .icon-nav-fixed > a .icon-instagram {
+    height: 30px;
+    width: 30px;
+}
+
+div.nav-fixed .icon-nav-fixed > a:hover {
+    cursor: pointer;
+    background-color: pink;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    /* overflow: hidden; */
+    list-style-type:none;
+}
+nav {
+    width: 1519.2px;
+    /* position:fixed; */
+    background-color: black;
+    min-height: 35px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+nav .menu ul {
+    height: 35px auto;
+    margin-left: 600px
+    
+}
+
+.menu li {
+    position: relative;
+}
+
+nav .menu ul li {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 35px;
+}
+nav .menu ul li:hover {
+    background-color: red;
+}
+
+#logo {
+    /* margin-left: 180px; */
+    float: left;
+    height: 75px;
+}
+
+a#logo img {
+    width: auto;
+    height: 85%;
+}
+/* tránh sập độ cao */
+.clear {
+    clear: both; 
+}
+.bia {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.bia img {
+    height: 854.55px;
+    width: 1519.2px;
+}
+article.color {
+    width: 1519.2px;
+    min-height: 150px;
+    background-color:bisque;
+    padding:25px 0 ;
+}
+
+div.canle {
+    width: 79%;
+    margin: 0 auto;
+}
+
+.can {
+    /* display: inline-block; */
+    float: left;
+    /* margin: 0 100px; */
+    text-align: center;
+    width: 100%;
+}
+.can h2 {
+    font-size: 15px;
+}
+.can p {
+    font-family:'Montserrat';
+    font-size: 14px;
+}
+
+div#can {
+    margin-top: 10px;
+}
+
+.can img {
+    margin-bottom: 15px;
+}
+
+section.can {
+    width: 250px;
+    margin-right: 50px;
+}
+
+section.anhnam {
+    /* float: left; */
+    /* margin: 5px; */
+    margin-right: 5px;
+}
+
+section.anhnu {
+    /* float: left; */
+    margin-left: 5px;
+}
+
+div.danhmuc-sanpham {
+    overflow: hidden;
+}
+
+div.danhmuc-sanpham > a:hover img  {
+    box-shadow: 0px 3px 10px 0px red;
+    opacity: 0.6; /* mờ ảnh đi */
+    transform: scale(1.1); /* zoom ảnh*/
+    /* border: 1px solid black; */
+    transition: all 0.6s ease-in-out;
+}
+
+div.canle1 {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 185px;
+    display: inline-flex;
+}
+
+div.danhmuc-sanpham a {
+    display: block;
+    position: relative;
+}
+
+div.danhmuc-sanpham a .danhmuc-name {
+    font-size: 30px;
+    position: absolute;
+    color:black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    bottom: 5px;
+    left: 35px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+div.danhmuc-sanpham a:hover .danhmuc-name {
+    opacity: 1;
+    bottom: 65px;
+}
+
+article.canle2 {
+    width: 1519.2px;
+    padding-top: 80px;
+}
+
+hr {
+    width: 120px;
+    text-align: center;
+    margin: 15px auto;
+    height: 2px;
+    background-color: red;
+}
+
+h2#fonth2 {
+    font-family: montserrat, sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+div.canle12 {
+    margin: 0 auto;
+    /* max-width: 1200px; */
+    padding: 0 180px;
+    text-align: center;
+}
+
+div.canle12 ul li a {
+    color: black;
+}
+
+div.canle12 ul {
+    width: 70%;
+    height: 20px auto;
+    margin: 0 auto;
+}
+
+div.canle12 ul li {
+    display: inline-block;
+    margin: 30px auto;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 40px;
+    margin-right: 50px;
+}
+
+div.canle12 ul li:hover a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+div#more a {
+    color: black;
+}
+
+div#more {
+    text-align: right;
+}
+
+div.dongho {
+    overflow: hidden;
+}
+/* chỉnh icon hiện */
+div.xemthem {
+    display: block;
+    position: relative;
+}
+
+div.dongho1 {
+    overflow: hidden;
+}
+
+div.phukien1 {
+    overflow: hidden;
+}
+
+div.phukien1 > a:hover img {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+div.dongho1 > a:hover img {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+div.xemthem > a:hover img  {
+    box-shadow: 0px 3px 10px 0px red;
+    opacity: 0.7; /* mờ ảnh đi */
+    transform: scale(1.1); /* zoom ảnh*/
+    /* border: 1px solid black; */
+}
+
+div.xemthem .xemthem2 > a .icon-xemthem {
+    
+    padding: 5px;
+    border-radius: 100% 100% 100% 100%;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    color: #333;
+    top: 15px;
+    right: 10px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+div.xemthem .xemthem2 > a  .icon-giohang {
+    padding: 5px;
+    border-radius: 100% 100% 100% 100%;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    color: #333;
+    top: 50px;
+    right: 10px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+div.xemthem > a:hover + .xemthem2 .icon-xemthem {
+    opacity: 1;
+}
+
+div.xemthem > a:hover + .xemthem2 .icon-giohang {
+    opacity: 1;
+}
+
+ div.xemthem .xemthem2 > a:hover .icon-xemthem {
+    background-color: red;
+    opacity: 1;
+}
+div.xemthem .xemthem2 > a:hover .icon-giohang {
+    background-color: red;
+    opacity: 1;
+}
+
+div.dongho img {
+    display: block;
+    width: 272.5px;
+    height: 272.5px;
+    margin-bottom: 12px;
+    /* box-shadow: 0 0 9px 7px cornsilk; */
+    transition: all 0.4s ease-in-out;
+}
+
+
+div.dongho1 img {
+    width: 569px;
+    height: 344px;
+
+}
+
+div.dongho a {
+    color: black;
+}
+div.dongho {
+    float: left;
+    width: 292px;
+    height: 344.4px;
+    text-align: center;
+}
+
+div.phukien > a:hover img {
+    box-shadow: 0px 3px 10px 0px red;
+    opacity: 0.7; /* mờ ảnh đi */
+    transform: scale(1.1); /* zoom ảnh*/
+}
+
+div.phukien {
+    overflow: hidden;
+}
+
+
+div.phukien img {
+    width: 262px;
+    height: 262px;
+    margin-bottom: 12px;
+    transition: all 0.4s ease-in-out;
+}
+
+div.phukien a{
+    color: black;
+}
+
+div.phukien {
+    float: left;
+    width: 282px;
+    height: 353.4px;
+    text-align: center;
+}
+
+div#phukien {
+    height: 745px;
+    display:inline-block;
+}
+
+div.phukien1 img {
+    /* padding-top: 20px; */
+    width: 594px;
+    height: 690px;
+}
+
+.top {
+    padding-top: 40px;
+    margin-top: 50px;
+}
+
+footer {
+    min-height: 500px;
+    width: 1519.2px;
+    background-color: black;
+}
+
+footer img {
+    width: 50%;
+}
+
+footer ul li {
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-bottom: 20px;
+    line-height: 20px;
+    position: relative;
+}
+
+div.footer {
+    float: left;
+    width: 400px;
+    min-height: 280px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: #AEAEAE;
+    margin-bottom: 20px;
+    line-height: 20px;
+    position: relative;
+}
+
+.footer h3 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+div.footer1 {
+    width: 195px;
+    min-height: 280px;
+    padding-right: 20px;
+}
+
+div#footericon {
+    display:inline-flex;
+}
+
+div#footericon >p {
+    margin-right: 20px;
+}
+
+div#footericon img{
+    width:32px;
+    background-color: red;
+}
+
+div#tintuc a {
+    color: #494949;
+    font-size: 18px;
+
+}
+
+div#tintuc p>strong>a {
+    margin-top: 30px;
+    color: #494949;
+    font-size: 12px;
+
+}
+
+div#tintuc img {
+    width: 370px;
+    height: 210px;
+    padding-bottom: 8px;
+}
+
+div#tintuc {
+    padding: 0 10px;
+}
+
+div#tintuc p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+div.tintuc {
+    display: flex;
+    min-height: 418px;
+    width: 390px;
+    margin: 0 185px;
+}
+
+div#price {
+    margin-top: 10px;
+}
+ div#price p {
+    font-family: 'Montserrat';
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.rowcuoi {
+    height: 60px;
+    background-color: #F97E6C;
+    margin-top: 40px;
+}
+nav{
+    z-index: 100;
+    background-color: black;
+    height: 70px;
+}
+div.container-menu{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: relative;
+}
+div.clear{
+    clear: both;
+}
+ul.main-menu{
+    list-style: none;
+}
+.main-menu li{
+    margin: 0 auto;
+    padding: 0 10px;
+    color: white;
+}
+li:hover{
+    cursor: pointer;
+}
+.main-menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    padding: 26px 10px;
+}
+.main-menu li>a:hover{
+    color: #d3b9b9;
+}
+div.logo img{
+    height: 60px;
+}
+.main-menu{
+    margin: 0 auto;
+    display: flex;
+}
+ul.icon{
+    display: flex;
+}
+.icon li{
+    list-style: none;
+    color: white;
+    padding: 26px 10px;
+}
+.sub-menu{
+    list-style: none;
+    position: absolute;
+    background-color: rgba(5,5,6,0.6);
+    top: 70px;;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+.sub-menu li{
+    float: left;
+}
+.sub-menu li{
+    box-sizing: border-box;
+    width: 16.66%;
+}
+ul.main-menu>li:hover .sub-menu{
+    height: 150px;
+}
+ul.main-menu>li:hover i{
+    transition: all 1s ease-in-out;
+    transform: rotate(-180deg);
+}
+
+ul.main-menu li a{
+    position: relative;
+}
+ul.main-menu>li>a::before{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 0;
+    background-color: #795151;
+    left: 0px;
+    bottom: 0;
+    transition: width 0.5s ease-in-out;
+}
+ul.main-menu>li:hover>a::before{
+    width: 100%;
+}
+ul.icon>li{
+    position: relative;
+}
+ul.icon>li:hover div.icon-find{
+    display: block;
+}
+.icon-find{
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+.icon-find input{
+    position: relative;
+    float: left;
+    outline: 0;
+    padding: 4px;  
+}
+.icon-find button{
+    position: absolute;
+    top:6px;
+    right:3px;
+    border: 0;
+    background-color: transparent;
+}
+ul.icon-user{
+    position: absolute;
+    display: none;
+    background-color: white;
+    top:70px;
+    right: 0;
+    width: 150px;
+    
+
+}
+ul.icon-user li{
+    border-bottom: #6f6767 1px solid ;
+    text-align: center;
+    padding: 10px 0;
+}
+ul.icon>li:hover ul.icon-user{
+    display: block;
+
+}
+ul.icon-user li:last-child{
+    border-bottom: 0;
+}
+ul.icon-user li a{
+    display: block;
+    text-decoration: none;
+    color: #6f6767;
+}
+ul.icon-user li a:hover{
+    color: #b97979;
+}
+div.shop{
+    font-size: 0.6rem;
+    width:100%;
+    display: none;
+    position: absolute;
+    /* padding: 10px; */
+    background-color: white;
+    color: #6f6767;
+    text-align: center;
+    left:25px;
+}
+ul.icon>li:hover div.shop{
+    display: block;
+}
+div.icon-menu{
+    cursor: pointer;
+    display: none;
+    padding: 26px 10px;
+    color: #f97e6c;
+    text-align: center;
+}
+ul.icon>li:hover div.shop{
+    display: block;
+}
+div.icon-menu{
+    cursor: pointer;
+    display: none;
+    padding: 26px 10px;
+    color: #f97e6c;
+    text-align: center;
+}
+
+.container-feedback{
+    width: 100%;
+    height: 50px;
+    background-color: #f97e6c;
+}
+.feedback{
+    padding: 15px 0;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    font-size: 20px;
+    color: #f7f7f7;
+}
+.feedback{
+    position: relative;
+}
+.feedback-mail input{
+    position: absolute;
+    top:15%;
+    color: #3d3a3a;
+    width:300px;
+    height: 30px;
+}
+.feedback-mail button{
+    width: 50px;
+    font-weight: 700;
+    right: 68px;
+    height: 34px;
+    position: absolute;
+    top:15%;
+    background-color: black;
+    color: aliceblue;
+
+}

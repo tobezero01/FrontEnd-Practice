@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/nav_2.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Đồng Hồ Nam</title>
+    <script>
+        function send(){
+            // var checkmail=/^([\W-]+(\?\:\.[\W-]+)*)@((\?\:[\w-]+\.)*\W[\W-]{0,66})\.([a-z]{2,6}(\?\:\.[a-z]{2,3})?)$/;
+            var checkmail=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            var a=document.getElementById('mail');//goi toi cac o co id bang mail
+            console.log(a);//hien thi tren nguon
+            var mail=a.value;//gan mail bang gia tri cua a
+            if(mail==""){
+                alert("Bạn hãy nhập mail để tiếp tục");
+                return;
+            }
+            if(!checkmail.test(mail)){
+                alert("Mời nhập mail hợp lệ");
+                return false;
+            }
+            else{
+                var luachon= confirm("Chúc mừng mừng bạn đã điền thành công\n"+"Mail bạn đã điền:"+mail+"\n"+"Nhấn OK để gửi thông tin")
+    
+                if(luachon){
+                    alert("Gửi thông tin thanh công");
+            }
+            }   
+        }   
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container-menu">
+                <div class="logo">
+                    <img src="assets/img/Picture/demo.png" alt="">
+                </div>
+                <div class="main-menu">
+                    <ul class="main-menu">
+                        <li><a href="../shop.html">Trang chủ</a></li>
+                        <li><a href="../shop.html">Giới thiệu</a></li>
+                        <li class="main-menu"><a href="">Sản phẩm <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="donghonam.html">Đồng hồ nam</a></li>
+                                <li><a href="donghonu.html">Đồng hồ nữ</a></li>
+                                <li><a href="donghonam.html">Đồng hồ mới về</a></li>
+                                <li><a href="donghonam.html">Phụ kiện nam</a></li>
+                                <li><a href="donghonam.html">Đồng hồ Sheiko</a></li>
+                                <li><a href="donghonam.html">Đồng hồ Orient</a></li>
+                                <li><a href="donghonam.html">Đồng hồ Olympia Star</a></li>
+                                <li><a href="donghonu.html">Đồng hồ nữ</a></li>
+                                <li><a href="donghonu.html">Đồng hồ thời trang</a></li>
+                                <li><a href="donghonu.html">Đồng hồ thông minh</a></li>
+                                <li><a href="donghonu.html">Dây đồng hồ</a></li>
+                            </ul></li>
+                        <li><a href="news.html">Tin tức</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="icon">
+                    <ul class="icon">
+                        <li><i class="fa fa-search" aria-hidden="true"></i>
+                            <div class="icon-find">
+                                <input type="text" id="find" placeholder="Tìm kiếm sản phẩm">   
+                                
+                                <button class="find"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </li>
+                        <li><i class="fa fa-user" aria-hidden="true"></i>
+                            <ul class="icon-user">
+                                <li><a href="login.html">Đăng nhập</a></li>
+                                <li><a href="register.html">Đăng kí</a></li>
+                            </ul> 
+                        </li>
+                        <li><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            <div class="shop">
+                                Giỏ hàng
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>          
+        </nav>
+        <div class="background">
+            <img src="assets/img/slide.webp" alt="">
+        </div>
+    </header>   
+    <div class="main__body">
+        <div class="main__header-list">
+             <ul class="main__header">
+                <li class="main__header-list"><a href="../shop.html">Trang chủ</a> </li>
+                <li>Đồng hồ nam</li>
+             </ul>
+        </div>
+        <div class="main__body-container">
+            <div class="main__body-container-items-main">
+                <h1>Đồng hồ nam</h1>
+<!-- Menu thứ 2 -->
+                <div class="menu__select">
+                   <ul class="menu__select">
+                    <li><a href="">Màu sắc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="menu__select-sub menu__select-sub-meta">
+                            <li><span class="menu__select-sub-color" style="background-color:#939292 ;"></span>Ánh bạc</a></li>
+                            <li><span class="menu__select-sub-color" style="background-color: #a17780;" ></span>Hồng ánh đồng</a></li>
+                            <li><span class="menu__select-sub-color" style="background-color:#000 ;"></span> <span>Đen</a></li>
+                            <li><span class="menu__select-sub-color" style="background-color: white;"></span> <span>Trắng</a></li>
+                            <li><span class="menu__select-sub-color" style="background-color:blue ;"></span> <span>Xanh dương</a></li>
+                            <li><span class="menu__select-sub-color" style="background-color: yellow;"></span> <span>Vàng</a></li>
+                        </ul>    
+                    </li>
+                    <li><a href="">Kích cỡ <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="menu__select-sub menu__select-sub-first">
+                            <li><a href=""><span>Dưới 29mm</span></a></li>
+                            <li><a href=""><span>29 - 33 mm</span></a></li>
+                            <li><a href=""><span>33 - 37 mm</span></a></li>
+                            <li><a href=""><span>40 - 42 mm</span></a></li>
+                            <li><a href=""><span>42 - 45 mm</span></a></li>
+                            <li><a href=""><span>Trên 45 mm</span></a></li>             
+                        </ul>
+                    </li>
+                   </ul>
+                    <ul class="menu__select">
+                        <li>Sắp xếp theo</li>
+                        <li class="menu__select-boder"><a href="">Mặc định <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="menu__select-sub menu__select-sub-second">
+                                <li><a href="">Mặc định</a></li>
+                                <li><a href="">A → Z</a></li>
+                                <li><a href="">Z → A</a></li>
+                                <li><a href="">Giá tăng dần</a></li>
+                                <li><a href="">Giá giảm dần</a></li>
+                                <li><a href="">Hàng mới nhất</a></li>
+                                <li><a href="">Hàng cũ nhất</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+    
+                </div>
+<!-- Hết menu 2 -->
+<!-- Danh mục sản phẩm -->
+                <div class="main__item">
+                    <div class="main__item-main">
+                        <div class="main__one-item">
+                            <div class="main__one-item-icon">
+                                <a href="" class="main__one-item-icon"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="" class="main__one-item-icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="main__one-item-backgr">
+                                <a href="donghonam/elio.html"><img src="assets/img/Picture/elio.jpg" alt=""></a> 
+                            </div>
+                            <a href="donghonam/elio.html">Elio
+                            </a>
+                            <div class="main__one-item-price">
+                                <span class="old__price">4.800.000đ </span> <span class="new__price">4.000.000đ</span>
+                            </div>
+                            <span class="num">-20%</span>
+                        </div>
+                        
+                        <div class="main__one-item">
+                            <div class="main__one-item-icon">
+                                <a href="" class="main__one-item-icon"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="" class="main__one-item-icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="main__one-item-backgr">                          
+                                <a href="donghonam/lacoste.html" ><img src="assets/img/Picture/lacoste.jpg" alt=""></a> 
+                            </div>
+                            <a href="donghonam/lacoste.html">Lacoste
+                            </a>
+                            <div class="main__one-item-price">
+                                <span class="old__price">4.600.000đ </span> <span class="new__price">3.200.000đ</span>
+                            </div>
+                            <span class="num">-30%</span>
+                        </div>
+                        <div class="main__one-item">
+                            <div class="main__one-item-icon">
+                                <a href="" class="main__one-item-icon"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="" class="main__one-item-icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="main__one-item-backgr">
+                                <a href="donghonam/lobinni.html" > <img src="assets/img/Picture/lobinni.png" alt=""></a>
+                            </div>
+                            <a href="donghonam/lobinni.html">lobinni
+                            </a>
+                            <div class="main__one-item-price">
+                                <span class="old__price">3.800.000đ </span> <span class="new__price">2.800.000đ</span>
+                            </div>
+                            <span class="num">-26%</span>
+                        </div>
+                        <div class="main__one-item">
+                            <div class="main__one-item-icon">
+                                <a href="" class="main__one-item-icon"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="" class="main__one-item-icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="main__one-item-backgr">
+                                <a href="donghonam/mvw.html" ><img src="assets/img/Picture/mvw.jpg" alt=""></a> 
+                            </div>
+                            <a href="donghonam/mvw.html">MVW
+                            </a>
+                            <div class="main__one-item-price">
+                                <span class="old__price">4.500.000đ </span> <span class="new__price">3.800.000đ</span>
+                            </div>
+                            <span class="num">-16%</span>
+                        </div>
+                        <div class="main__one-item">
+                            <div class="main__one-item-icon">
+                                <a href="" class="main__one-item-icon"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="" class="main__one-item-icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="main__one-item-backgr">
+                                <a href="donghonam/PNJ.html" > <img src="assets/img/Picture/PNJ.jpg" alt=""></a>
+                            </div>
+                            <a href="donghonam/PNJ.html">Jacques 
+                            </a>
+                            <div class="main__one-item-price">
+                                <span class="old__price">5.100.000đ </span> <span class="new__price">4.500.000đ</span>
+                            </div>
+                            <span class="num">-13%</span>
+                        </div>
+                        <div class="main__one-item">
+                            <div class="main__one-item-icon">
+                                <a href="" class="main__one-item-icon"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="" class="main__one-item-icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="main__one-item-backgr">
+                                <a href="donghonam/teintop.html" > <img src="assets/img/Picture/teintopT7009-5.jpg" alt=""></a>
+                            </div>
+                            <a href="donghonam/teintop.html">Teintop
+                            </a>
+                            <div class="main__one-item-price">
+                                <span class="old__price">3.800.000đ </span> <span class="new__price">3.300.000đ</span>
+                            </div>
+                            <span class="num">-16%</span>
+                        </div>
+                        <div class="main__one-item">
+                            <div class="main__one-item-icon">
+                                <a href="" class="main__one-item-icon"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="" class="main__one-item-icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="main__one-item-backgr">
+                                <a href="donghonam/titoni.html" ><img src="assets/img/Picture/titoni.jpg" alt=""></a> 
+                            </div>
+                            <a href="donghonam/titoni.html">Titoni
+                            </a>
+                            <div class="main__one-item-price">
+                                <span class="old__price">4.300.000đ </span> <span class="new__price">3.900.000đ</span>
+                            </div>
+                            <span class="num">-10%</span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+ <!-- Hết sản phẩm           -->
+                    <div class="sub__item">
+                        <h2>Các bộ sưu tập khác</h2>
+                        <a href="#" class="icon-next" id="icon-next-first" >Xem tất cả<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <div class="clear"></div>
+                        <div class="sub__item-link">
+                            <div class="sub__item-link-container">
+                                <div class="sub__item-link-img">
+                                <a href="#"><img src="assets/img/Picture/link1.jpg" alt=""></a>
+                                </div>
+                                <a href="#" class="icon-next">Đồng hồ Kaishmar <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="sub__item-link-container">
+                                <div class="sub__item-link-img">
+                                <a href="#"><img src="assets/img/Picture/link2.jpg" alt=""></a>
+                                </div>
+                                <a href="#" class="icon-next">Đồng hồ Weimar <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="sub__item-link-container">
+                                <div class="sub__item-link-img">
+                                <a href="#"><img src="assets/img/Picture/link3.jpg" alt=""></a>
+                                </div>
+                                <a href="#" class="icon-next">Đồng hồ Blossom  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="clear"></div>
+                            
+                        </div>
+                    </div >                  
+                </div>
+            </div> 
+            <div class="customer">
+                <h2>Khách hàng của chúng tôi</h2>
+                <h3>Ai nói bạn không thể toả sáng?</h3>
+                <div class="customer-backgr">
+                    <div class="customer-backgr-img"><img src="assets/img/Picture/customer1.jpg" alt=""></div>
+                    <div class="customer-backgr-img"><img src="assets/img/Picture/customer2.jpg" alt=""></div>
+                    <div class="customer-backgr-img"><img src="assets/img/Picture/customer3.jpg" alt=""></div>
+                    <div class="customer-backgr-img"><img src="assets/img/Picture/customer4.jpg" alt=""></div>
+                    <div class="customer-backgr-img"><img src="assets/img/Picture/customer5.jpg" alt=""></div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class=container-feedback>
+                <div class="feedback">
+                    <h4>Nhận thông tin khuyễn mãi từ chúng tôi</h4>
+                    <div class="feedback-mail">
+                        <form action="" name="form_mail">
+                            <input type="text" placeholder="Nhập email của bạn tại" name="mail" id="mail">
+                            <input type="button" value="Gửi" onclick="send()" id="button">
+                        </form>
+                    </div>  
+                </div>
+                <div class="clear"></div>            
+            </div>
+        </div>
+    </div>
+    <footer class="row " >
+        <section class="top" >
+            <div class="footer" style="padding-left: 325px;padding-right: 100px;">
+                <div>
+                    <img src="assets/img/Picture/demo.png" alt="">
+                </div>
+                <div style="padding-top: 20px;">
+                    <ul>
+                        <div id="footericon">
+                            <p><img src="assets/icon/place.png" alt=""></p>
+                            <li>
+                                <p><span>Đồng Quang, Quốc Oai, Hà Nội</span></p>
+                            </li>
+                        </div>
+                        <div id="footericon">
+                            <p><img src="assets/icon/clock.png" alt=""></p>
+                            <li>
+                                <p><span>Giờ làm việc: Từ 8:00 đến 23:00 các ngày trong tuần, từ Thứ 2 đến Chủ nhật.</span></p>
+                            </li>
+                        </div>
+                        <div id="footericon">
+                            <p><img src="assets/icon/mail.png" alt="Send to me"></p>
+                            <li>
+                                <p>Mail</p>
+                                <a href="mailto:tientung03.nttvn@gmail.com" style="color: red;font-size: 18px;">tientung03.nttvn@gmail.com</a>
+                            </li>
+                        </div>
+                        <div id="footericon">
+                            <p><img src="assets/icon/phone.png" alt="Call"></p>
+                            <li>
+                                <p><span>Hotline</span></p>
+                                <strong><a href="tel:19001234" style="color: red;font-size: 20px;">19001234</a></strong> 
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer footer1">
+                <h3>LIÊN KẾT</h3>
+                <ul>
+                    <li><a href="../shop.html">Trang Chủ</a></li>
+                    <li><a href="../shop.html">Giới Thiệu</a></li>
+                    <li><a href="donghonu.html">Sản Phẩm</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                    <li><a href="#">Tin Tức</a></li>
+                </ul>
+            </div>
+            <div class="footer footer1">
+                <h3>HỖ TRỢ</h3>
+                <ul>
+                    <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="#">Hướng dẫn thanh toán</a></li>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Chính sách dổi trả</a></li>
+                    <li><a href="#">Tư vấn khách hàng</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <div class="nav-fixed">
+        <div class="icon-nav-fixed">
+            <a href="">
+                <div class="icon-mail">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z"/></svg>
+                </div>
+            </a>
+            <a href="https://www.facebook.com/hovu.congtu.980315/">
+                <div class="icon-facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                </div>
+            </a>
+            <a href="">
+                <div class="icon-youtube">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+                </div>                      
+            </a>
+            <a href="">
+                <div class="icon-instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

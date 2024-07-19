@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOCK KING</title>
+    <link rel="stylesheet" href="CSS/shop.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div>
+        <header>
+            <nav>
+                <div class="container-menu">
+                    <div>
+                        <a href="#" id="logo"><img src="Picture/demo.png" alt="#"></a>
+                    </div>
+                    <div class="main-menu">
+                        <ul class="main-menu">
+                            <li><a href="shop.html">Trang chủ</a></li>
+                            <li><a href="shop.html">Giới thiệu</a></li>
+                            <li class="main-menu"><a href="">Sản phẩm <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="product/donghonam.html">Đồng hồ nam</a></li>
+                                    <li><a href="product/donghonu.html">Đồng hồ nữ</a></li>
+                                    <li><a href="product/donghonu.html">Đồng hồ mới về</a></li>
+                                    <li><a href="product/donghonam.html">Phụ kiện nam</a></li>
+                                    <li><a href="product/donghonam.html">Đồng hồ Sheiko</a></li>
+                                    <li><a href="product/donghonam.html">Đồng hồ Orient</a></li>
+                                    <li><a href="product/donghonam.html">Đồng hồ Olympia Star</a></li>
+                                    <li><a href="product/donghonu.html">Đồng hồ nữ</a></li>
+                                    <li><a href="product/donghonu.html">Đồng hồ thời trang</a></li>
+                                    <li><a href="product/donghonu.html">Đồng hồ thông minh</a></li>
+                                    <li><a href="product/donghonu.html">Dây đồng hồ</a></li>
+                                </ul></li>
+                            <li><a href="">Tin tức</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <ul class="icon">
+                            <li><i class="fa fa-search" aria-hidden="true"></i>
+                                <div class="icon-find">
+                                    <input type="text" id="find" placeholder="Tìm kiếm sản phẩm">   
+                                    
+                                    <button class="find"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </div>
+                            </li>
+                            <li><i class="fa fa-user" aria-hidden="true"></i>
+                                <ul class="icon-user">
+                                    <li><a href="product/login.html">Đăng nhập</a></li>
+                                    <li><a href="product/register.html">Đăng kí</a></li>
+                                </ul> 
+                            </li>
+                            <li><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                <div class="shop">
+                                    Giỏ hàng
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="icon-menu"><i class="fa fa-bars" aria-hidden="true"></i></div>               
+                    <div class="clear"></div>
+                </div>  
+            </nav>
+            <div class="bia">
+                <img src="Picture/bia2.jpg" alt="">
+            </div>
+        </header>
+        <!-- <header class="row">
+            <nav>
+                <div class="menu">
+                    <a href="#" id="logo"><img src="Picture/demo.png" alt="#"></a>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Sản Phẩm</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="icon-loupe"></i>
+                </div>
+                <div class="clear"></div>
+                <div class="bia">
+                    <img src="Picture/bia2.jpg" alt="">
+                </div>
+            </nav>
+        </header> -->
+
+        <main class="row">
+            <div class="nav-fixed">
+                <div class="icon-nav-fixed">
+                    <a href="">
+                        <div class="icon-mail">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z"/></svg>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/hovu.congtu.980315/">
+                        <div class="icon-facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="icon-youtube">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+                        </div>                      
+                    </a>
+                    <a href="">
+                        <div class="icon-instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <article class="color">
+                    <div class="canle">
+                        <section class="can">
+                            <img src="icon/vanchuyen.svg" alt="">
+                            <h2>Vận chuyển toàn cầu</h2>
+                            <div id="can">
+                                <p>Miễn phí vận chuyển trên toàn quốc với tất cả các đơn hàng trên 3.500.000Đ</p>
+                            </div>
+                        </section>
+                        <section class="can">
+                            <img src="icon/lienhe.svg" alt="#">
+                            <h2>Hỗ trợ hotline 24/24</h2>
+                            <div id="can">
+                                <p>Chúng tôi luôn luôn hỗ trợ khách hàng 24/24 tất cả các ngày trong tuần</p>
+                            </div>
+                        </section>
+                        <section class="can">
+                            <img src="icon/doitra.svg" alt="">
+                            <h2>Miễn phí đổi trả</h2>
+                            <div id="can">
+                                <p>Miễn phí đổi trả trong vòng 15 ngày đầu tiên nếu gặp lỗi, áp dụng cho mọi mặt hàng</p>
+                            </div>
+                        </section>
+                        <section class="can">
+                            <img src="icon/quatang.svg" alt="">
+                            <h2>Quà tặng hấp dẫn</h2>
+                            <div id="can">
+                                <p>Chương trình khuyến mãi cực lớn và hấp dẫn  và các dịp lễ và chủ nhật hàng tuần</p>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="canle2">
+                    <div>
+                        <section>
+                            <div>
+                                <h2 style="margin: 0 0 60px ;" id="fonth2">
+                                    <span>
+                                        DANH MỤC SẢN PHẨM
+                                        <hr>
+                                    </span>
+                                </h2>
+                            </div>
+                        </section>
+                        <div class="canle1">
+                            <section class="anhnam">
+                                <!-- <img width="570px" height="360px" src="Picture/donghonam.jpg" alt="Dồng hồ nam"> -->
+                                <div class="danhmuc-sanpham">
+                                    <a href="product/donghonam.html">
+                                        <img width="570px" height="360px" src="Picture/donghonam.jpg" alt="Dồng hồ nam">
+                                        <div class="danhmuc-name"> 
+                                            Đồng hồ nam
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- <img width="570px" height="535px" src="Picture/phukiennu.jfif" alt=" Phụ Kiện nữ"> -->
+                                <div class="danhmuc-sanpham">
+                                    <a href="product/donghonu.html">
+                                        <img width="570px" height="535px" src="Picture/phukiennu.jfif" alt=" Phụ Kiện nữ">
+                                        <div class="danhmuc-name"> 
+                                            Phụ kiện nữ
+                                        </div>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="anhnu">
+                                <!-- <img width="570px" height="535px" src="Picture/donghonu.jpg" alt="Đồng hồ nữ"> -->
+                                <div class="danhmuc-sanpham">
+                                    <a href="product/donghonu.html">
+                                        <img width="570px" height="535px" src="Picture/donghonu.jpg" alt="Đồng hồ nữ">
+                                        <div class="danhmuc-name"> 
+                                            Đồng hồ nữ
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- <img width="570px" height="360px" src="Picture/phukiennam.jpg" alt="Phụ kiện nam"> -->
+                                <div class="danhmuc-sanpham">
+                                    <a href="product/donghonam.html">
+                                        <img width="570px" height="360px" src="Picture/phukiennam.jpg" alt="Phụ kiện nam">
+                                        <div class="danhmuc-name"> 
+                                            Phụ kiện nam
+                                        </div>
+                                    </a>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- <article class="canle2">
+                    <div>
+                        <section class="canle12">
+                            <div>
+                                <h2 id="fonth2">
+                                    <span>
+                                        TOP SẢN PHẨM BÁN CHẠY
+                                        <hr>
+                                    </span>
+                                </h2>
+                            </div>
+                        </section>
+                        <div class="canle12">
+                            <section>
+                                <ul>
+                                    <li ><a href="#">Đồng hồ nam</a></li>
+                                    <li><a href="#">Đồng hồ nữ</a></li>
+                                    <li><a href="#">Phụ kiện</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </article> -->
+
+                <article class="canle2">
+                    <div>
+                        <section class="top">
+                            <div class="canle12" id="more">
+                                <h2 id="fonth2">
+                                    <span>
+                                        ĐỒNG HỒ NAM
+                                        <hr>
+                                    </span>
+                                </h2>
+                                <p style="margin-bottom:15px ;"><span><a href="product/donghonam.html">Xem tất cả &#8594;</a></span></p>
+                            </div>
+                            <div class="canle12">
+                                <div class="dongho">
+                                    <div class="xemthem">
+                                        <a href="product/donghonam.html">
+                                            <img src="Picture/lacoste.jpg" alt=""    >
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonam.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonam.html" title="Lacoste">Lacoste</a>
+                                    <div id="price">
+                                        <p><span>3.290.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                                <div class="dongho">
+                                    <div class="xemthem">
+                                        <a href="product/donghonam.html">
+                                            <img src="Picture/elio.jpg" alt="">
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonam.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonam.html" title="Elio">Elio</a>
+                                    <div id="price">
+                                        <p><span>990.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                                <div class="dongho1">
+                                    <a href="product/donghonam.html"><img src="Picture/casio.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="canle12" style="display:flex;">
+                                <div class="dongho">
+                                    <!-- <a href="#">
+                                        <img src="Picture/mvw.jpg" alt="">
+                                        <div class="name">
+                                            <a href="">                                    
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                            </a>
+                                        </div>
+                                    </a> -->
+                                    <div class="xemthem">
+                                        <a href="product/donghonam.html">
+                                            <img src="Picture/mvw.jpg" alt="">
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonam.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonam.html" title="MVW">MVW</a>
+                                    <div id="price">
+                                        <p><span>930.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                                <div class="dongho">
+                                    <div class="xemthem">
+                                        <a href="product/donghonam.html">
+                                            <a href="product/donghonam.html"><img src="Picture/teintopT7009-5.jpg" alt=""></a>
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonam.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonam.html" title="Teintop">Teintop</a>
+                                    <div id="price">
+                                        <p><span>1.250.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                                <div class="dongho">
+                                    <!-- <a href="#"><img src="Picture/titoni.jpg" alt=""></a> -->
+                                    <div class="xemthem">
+                                        <a href="product/donghonam.html">
+                                            <img src="Picture/titoni.jpg" alt="">
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonam.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonam.html" title="Titoni">Titoni</a>
+                                    <div id="price">
+                                        <p><span>2.490.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                                <div class="dongho">
+                                    <!-- <a href="#"><img src="Picture/lobinni.png" alt=""></a> -->
+                                    <div class="xemthem">
+                                        <a href="product/donghonam.html">
+                                            <img src="Picture/lobinni.png" alt="">
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonam.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonam.html" title="lobinni">Lobinni</a>
+                                    <div id="price">
+                                        <p><span>4.230.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="canle2">
+                    <div>
+                        <section style="background-color:#fcf9f4;" class="top">
+                            <div class="canle12" id="more">
+                                <h2 id="fonth2">
+                                    <span>
+                                        ĐỒNG HỒ NỮ
+                                        <hr>
+                                    </span>
+                                </h2>
+                                <p style="margin-bottom:15px ;"><span><a href="product/donghonu.html">Xem tất cả &#8594;</a></span></p>
+                            </div>
+                            <div class="canle12" style="display: flex;">
+                                <div class="dongho1">
+                                    <a href="product/donghonu.html"><img src="Picture/bianu.jpg" alt=""></a>
+                                </div>
+                                <div class="dongho">
+                                    <!-- <a href="#"><img src="Picture/elionu.jpg" alt=""></a> -->
+                                    <div class="xemthem">
+                                        <a href="product/donghonu.html">
+                                            <img src="Picture/elionu.jpg" alt="">
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonu.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonu.html" title="Elio">Elio EL061-02</a>
+                                    <div id="price">
+                                        <p><span>700.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                                <div class="dongho">
+                                    <!-- <a href="#"><img src="Picture/elionuEL008-01.jpg" alt=""></a> -->
+                                    <div class="xemthem">
+                                        <a href="product/donghonu.html">
+                                            <img src="Picture/elionuEL008-01.jpg" alt="">
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonu.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonu.html" title="Elio EL008-01">Elio EL008-01</a>
+                                    <div id="price">
+                                        <p><span>850.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="canle12" style="display: flex;">
+                                <div class="dongho">
+                                    <!-- <a href="#"><img src="Picture/DW.jpg" alt=""></a> -->
+                                    <div class="xemthem">
+                                        <a href="product/donghonu.html">
+                                            <img src="Picture/DW.jpg" alt="">
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonu.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonu.html" title="DW 00100249">DW 00100249</a>
+                                    <div id="price">
+                                        <p><span>3.800.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                                <div class="dongho">
+                                    <!-- <a href="#"><img src="Picture/Julius.jfif" alt=""></a> -->
+                                    <div class="xemthem">
+                                        <a href="product/donghonu.html">
+                                            <img src="Picture/Julius.jfif" alt="">
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonu.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonu.html" title="Julius JU970">Julius JU970</a>
+                                    <div id="price">
+                                        <p><span>649.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                                <div class="dongho">
+                                    <!-- <a href="#"><img src="Picture/PNJ.jpg" alt=""></a> -->
+                                    <div class="xemthem">
+                                        <a href="product/donghonu.html">
+                                            <img src="Picture/PNJ.jpg" alt="">
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonu.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonu.html" title="Jacques du Manoir">Jacques du Manoir</a>
+                                    <div id="price">
+                                        <p><span>5.450.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                                <div class="dongho">
+                                    <!-- <a href="#"><img src="Picture/aolix.jpg" alt=""></a> -->
+                                    <div class="xemthem">
+                                        <a href="product/donghonu.html">
+                                            <img src="Picture/aolix.jpg" alt="">
+                                            <div class="xemthem2"> 
+                                                <a href="product/donghonu.html">
+                                                    <div class="icon-xemthem">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div class="icon-giohang">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="product/donghonu.html" title="Aolix">Aolix AL-1043L</a>
+                                    <div id="price">
+                                        <p><span>3.090.000<u>đ</u></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="canle2">
+                    <section class="top">
+                        <div class="canle12" id="more">
+                            <h2 id="fonth2">
+                                <span>
+                                    PHỤ KIỆN
+                                    <hr>
+                                </span>
+                            </h2>
+                            <p style="margin-bottom:10px;"><span><a href="#">Xem tất cả &#8594;</a></span></p>
+                        </div>
+                        <div class="canle12" style="display: flex">
+                            <div id="phukien">
+                                <div>
+                                    <div class="phukien">
+                                        <!-- <a href="#"><img src="Picture/phukien/DOJI-DJRM2506.jpg" alt=""></a> -->
+                                        <div class="xemthem">
+                                            <a href="#">
+                                                <img src="Picture/phukien/DOJI-DJRM2506.jpg" alt="">
+                                                <div class="xemthem2"> 
+                                                    <a href="">
+                                                        <div class="icon-xemthem">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                        </div>
+                                                    </a>
+                                                    <a href="">
+                                                        <div class="icon-giohang">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <a href="#" title="DOJI-DJRM2506">DOJI DJRM2506</a>
+                                        <div id="price">
+                                            <p><span>2.400.000<u>đ</u></span></p>
+                                        </div>
+                                    </div>
+                                    <div class="phukien">
+                                        <!-- <a href="#"><img src="Picture/phukien/DW.jpg" alt=""></a> -->
+                                        <div class="xemthem">
+                                            <a href="#">
+                                                <img src="Picture/phukien/DW.jpg" alt="">
+                                                <div class="xemthem2"> 
+                                                    <a href="">
+                                                        <div class="icon-xemthem">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                        </div>
+                                                    </a>
+                                                    <a href="">
+                                                        <div class="icon-giohang">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <a href="#" title="Curnon Celia Cuff">Curnon Celia Cuff</a>
+                                        <div id="price">
+                                            <p><span>2.400.000<u>đ</u></span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="phukien">
+                                        <!-- <a href="#"><img src="Picture/phukien/Curnon-Celia-Cuff.jfif" alt=""></a> -->
+                                        <div class="xemthem">
+                                            <a href="#">
+                                                <img src="Picture/phukien/Curnon-Celia-Cuff.jfif" alt="">
+                                                <div class="xemthem2"> 
+                                                    <a href="">
+                                                        <div class="icon-xemthem">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                        </div>
+                                                    </a>
+                                                    <a href="">
+                                                        <div class="icon-giohang">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <a href="#" title="Curnon Celia Cuff">Curnon Celia Cuff</a>
+                                        <div id="price">
+                                            <p><span>2.400.000<u>đ</u></span></p>
+                                        </div>
+                                    </div>
+                                    <div class="phukien">
+                                        <!-- <a href="#"><img src="Picture/phukien/Curnon-Rosie-Cuff.jfif" alt=""></a> -->
+                                        <div class="xemthem">
+                                            <a href="#">
+                                                <img src="Picture/phukien/Curnon-Rosie-Cuff.jfif" alt="">
+                                                <div class="xemthem2"> 
+                                                    <a href="">
+                                                        <div class="icon-xemthem">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+                                                        </div>
+                                                    </a>
+                                                    <a href="">
+                                                        <div class="icon-giohang">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/></svg>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <a href="#" title="Curnon Roise Cuff">Curnon Roise Cuff</a>
+                                        <div id="price">
+                                            <p><span>1.950.000<u>đ</u></span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="phukien1">
+                                    <a href="#"><img src="Picture/phukien/biaphukien1.jpg" alt="Phụ kiện"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+
+                <article class="canle2">
+                    <section class="top">
+                        <div class="canle12" id="more" style="margin-bottom: 58px;"> 
+                            <h2 id="fonth2">
+                                <span>
+                                    TIN TỨC
+                                    <hr>
+                                </span>
+                            </h2>
+                        </div>
+                        <div class="tintuc">
+                            <div id="tintuc">
+                                <a href="#"><img src="Picture/Tintuc/hopmauda.jpg" alt="Chọn đồng hồ hợp màu da"></a>
+                                <div>
+                                    <strong><a href="#">Cách chọn mua đồng hồ nam nữ phù hợp với màu da của bạn.</a></strong>
+                                </div>
+                                <div style="margin-top: 8px;">
+                                    <p><span>24/09/2022</span></p>
+                                </div>
+                                <div style="margin-top: 8px;">
+                                    <p>Chọn đồng hồ đeo tay sao cho phù hợp với màu da giúp "tôn da" và hợp thời trang là điều vô cùng quan trọng. Hôm nay bạn hãy cùng CLOCK KING tìm hiể...</p>
+                                </div>
+                                <div style="margin-top: 10px;">
+                                    <p><strong><a href="#">Xem thêm &#8594;</a></strong></p>
+                                </div>
+                            </div>
+                            <div id="tintuc" >
+                                <a href="#"><img src="Picture/Tintuc/donghonuhot1.jpg" alt="Top 6 đồng hồ nữ sang chảnh" s></a>
+                                <div>
+                                    <strong><a href="#">Top 6 mẫu đồng hồ nữ sang chảnh của các hãng nổi tiếng nhất hiện nay.</a></strong>
+                                </div>
+                                <div style="margin-top: 8px;">
+                                    <p><span>26/09/2022</span></p>
+                                </div>
+                                <div style="margin-top: 8px;">
+                                    <p>1.Đồng hồ nữ đẹp JULIUS đây là một thương hiệu đồng hồ xuất xứ từ Hàn Quốc được kết hợp với công nghệ Nhật Bản. Chiếc đồng hồ nayc mang...</p>
+                                </div>
+                                <div style="margin-top: 10px;">
+                                    <p><strong><a href="#">Xem thêm &#8594;</a></strong></p>
+                                </div>
+                            </div>
+                            <div id="tintuc">
+                                <a href="#"><img src="Picture/Tintuc/donghonamhot.jpg" alt="Top 5 đồng hồ nam đáng mua nhất 2022"></a>
+                                <div>
+                                    <strong><a href="#">Top 5 mẫu đồng hồ nam đáng mua nhất thị trường năm 2022</a></strong>
+                                </div>
+                                <div style="margin-top: 8px;">
+                                    <p><span>27/09/2022</span></p>
+                                </div>
+                                <div style="margin-top: 8px;">
+                                    <p>1.CITIZEN ECO-DRIVE BL8140-80L đây là mẫu thiết kế thuộc dòng cao cấp nhất từ hãng. Với vẻ ngoài nam tính và lịch lãm, kết hợp ...</p>
+                                </div>
+                                <div style="margin-top: 10px;">
+                                    <p><strong><a href="#">Xem thêm &#8594;</a></strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </main>
+        <footer class="row" >
+            <section class="canle2">
+                <div class=container-feedback>
+                    <div class="feedback">
+                    <h4>Nhận thông tin khuyễn mãi từ chúng tôi</h4>
+                    <div class="feedback-mail">
+                        <input type="text" placeholder="Nhập email của bạn tại">
+                        <button class="button">Gửi</button>
+                    </div>
+                    <div class="clear"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="top" >
+                <div class="footer" style="padding-left: 325px;padding-right: 100px;">
+                    <div>
+                        <img src="Picture/demo.png" alt="">
+                    </div>
+                    <div style="padding-top: 20px;">
+                        <ul>
+                            <div id="footericon">
+                                <p><img src="icon/place.png" alt=""></p>
+                                <li>
+                                    <p><span>Số 12, Phố Khúc Thừa Dụ, Phường Dịch Vọng, Quận Cầu Giấy, TP Hà Nội.</span></p>
+                                </li>
+                            </div>
+                            <div id="footericon">
+                                <p><img src="icon/clock.png" alt=""></p>
+                                <li>
+                                    <p><span>Giờ làm việc: Từ 8:00 đến 23:00 các ngày trong tuần, từ Thứ 2 đến Chủ nhật.</span></p>
+                                </li>
+                            </div>
+                            <div id="footericon">
+                                <p><img src="icon/mail.png" alt="Send to me"></p>
+                                <li>
+                                    <p>Mail</p>
+                                    <a href="mailto:vuvinh23112002@gmail.com" style="color: red;font-size: 18px;">vuvinh23112002@gmail.com</a>
+                                </li>
+                            </div>
+                            <div id="footericon">
+                                <p><img src="icon/phone.png" alt="Call"></p>
+                                <li>
+                                    <p><span>Hotline</span></p>
+                                    <strong><a href="tel:19001234" style="color: red;font-size: 20px;">19001234</a></strong> 
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer footer1">
+                    <h3>LIÊN KẾT</h3>
+                    <ul>
+                        <li><a href="#">Trang Chủ</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Sản Phẩm</a></li>
+                        <li><a href="#">Liên Hệ</a></li>
+                        <li><a href="#">Tin Tức</a></li>
+                    </ul>
+                </div>
+                <div class="footer footer1">
+                    <h3>HỖ TRỢ</h3>
+                    <ul>
+                        <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                        <li><a href="#">Hướng dẫn thanh toán</a></li>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách dổi trả</a></li>
+                        <li><a href="#">Tư vấn khách hàng</a></li>
+                    </ul>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+.content{
+    font-size: 13pt;
+}
+.information{
+    color:black;
+}
+h1 {
+    font-size: 30pt;
+}
+.friends{
+    font-size: 20pt;
+    font-weight: bolders;
+}
+span#duc{
+    font-size: 20pt;
+    color: blue;
+}
+label.duc{
+    color:brown;
+}
+table.table td{
+    font-weight: bold;
+    font-size: 18pt;
+    color: brown;
+}
+div.information ul li+li+li{
+    list-style: none;
+    color: brown;
+}
+div>div>h1 {
+    color: brown;
+}
+th[title="duc"]{
+    color:olivedrab;
+}
